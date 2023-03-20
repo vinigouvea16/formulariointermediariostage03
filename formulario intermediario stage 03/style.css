@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 14px;
+  color: #4E4958;
+    
+}
+
+body{
+  background: #E5E5E5;
+}
+
+body::before{
+    content: '';
+    width: 100%;
+    height: 436px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+.page{
+  margin: auto;
+  width: 750px;
+}
+
+header{
+  margin-top: 140px;
+}
+
+
+header h1 {
+  font-family: Staatliches;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+  Width:163px;
+  Height:60px;
+
+  width: 163px;
+  height: 60px;
+  left: 345px;
+  top: 138px;
+}
+
+header p{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FFFFFF;
+  width: 417px;
+  height: 46px;
+  left: 345px;
+  top: 216px;
+  margin-bottom: 58px;
+
+
+}
+
+fieldset legend {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  padding-bottom: 10px;
+  color: #535971;
+  width: 100%;
+  border-bottom: 1px solid #E6E6F0;
+
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  height: 1084px;
+
+
+  padding: 64px;
+
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+}
+
+fieldset {
+  border: none;
+}
+
+.input-wrapper input{
+
+  width: 100%;
+  height: 56px;  
+  background: #FAFAFC;
+  
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+
+.inputzerodois legend
+{
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  border: none;
+  padding-top: 32px;
+  color: #535971;
+  width: 100%;
+}
+
+.inputzerotres legend
+{
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  border: none;
+  padding-top: 16px;
+  color: #535971;
+  width: 100%;
+}
+
+
+.col-2{
+  display:flex;
+  gap: 22px;
+  padding-top: 36px;
+}
+
+.col-2 > div:nth-child(1) {
+  width:100%;
+}
+
+.col-2 > div:nth-child(2) {
+  width:100%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: 300px;
+  color: #E6E6F0;
+  padding-bottom: 20px;
+}
+
+.input-wrapper label {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+
+  color: #4E4958;
+}
+
+.input-wrapper label mentor-name{
+  padding-top: 32px;
+}
+
+.input-wrapper label span{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  margin-left: 9px;
+  
+  color: #C1BCCC;
+
+}
+
+.col-6{
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.col-6 > div:nth-child(1){
+  width: 100%;
+}
+.col-6 > div:nth-child(2){
+  margin-left: 32px;
+  width: 50%;
+}
+
+.col-6 > div:nth-child(3){
+  width: 50%;
+  margin-left: 10px;
+}
+.col-7{
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.col-7 > div:nth-child(1){
+  width: 100%;
+}
+.col-7 > div:nth-child(2){
+  margin-left: 32px;
+  width: 50%;
+}
+
+.col-7 > div:nth-child(3){
+  width: 50%;
+  margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 750px;
+    height: 160px;
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 366px;
+}
+
+footer .button{
+  font-family: Staatliches;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #FFFFFF;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 10px;
+
+  width: 608px;
+  height: 55.65px;
+  left: 416px;
+  top: 1456.67px;
+
+  background: #FF5374;
+  border-radius: 20px;
+
+}
+footer .button:hover{
+  background:#682f3a;
+}
+
+input:invalid {
+  border: 1px solid #10ebff;
+ } 
